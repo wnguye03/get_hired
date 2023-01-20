@@ -3,6 +3,9 @@
   "description": "Helps you organize your job applications",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
   "action": {
     "default_popup": "/popup/popup.html",
     "default_icon": "/images/logo.png"

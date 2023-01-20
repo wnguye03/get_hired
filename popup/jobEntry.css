@@ -26,6 +26,12 @@ body {
     background-color: black;
 }
 
+.leftIcon i {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
 button {
     position: absolute;
     top: 525px;
@@ -36,3 +42,23 @@ button {
     background-color: rgb(68, 138, 255);
 }
 
+.form {
+    position: absolute;
+    top: 125px;
+    left: 350px;
+    color: white;
+}
+
+label {
+    font-size: large;
+}
+
+input[type=text] {
+    width: 100%;
+    border-color: rgb(68, 138, 255);
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 12px 20px;
+    margin: 8px -21px;
+    box-sizing: border-box;
+  }

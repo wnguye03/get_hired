@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html
+  <head>
     <link rel="stylesheet" href="popup.css">
+  </head>
   <body>
-    <h1>Hello world</h1>
-	<script src="index.js"></script>
+    <div class="title">
+      <h1>Get Hired</h1>
+    </div>
+    <hr class="horizontalLineBlue">
+    <hr class="horizontalLineWhite">
+    <div class="yourJobsTable">
+    <table cellPadding="20" cellSpacing="25">
+      <tr style="text-align: center; color: white; font-size: large;">
+        <td>Company Name</td>
+        <td>Job Title</td>
+        <td>Status</td>
+        <td>Additional comments</td>
+      </tr>
+    </table>
+    </div>
+    <div id="jobEntries"></div>
+    <a href="jobEntry.html"><button type="button">New Job!!!</button></a>
+	<script src="popup.js"></script>
   </body>
 </html>
